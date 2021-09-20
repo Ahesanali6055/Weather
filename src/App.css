@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Merienda:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family:'Mulish', sans-serif; */
+  font-size: 25px;
+}
+
+.parent_div{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(145deg, rgb(72, 72, 211),rgb(175, 100, 175));
+  position: relative;
+ 
+}
+
+.child_div{ 
+  width: 40vw;
+  height: 60vh;
+  background-image: linear-gradient(145deg, rgb(71, 128, 233),rgb(169, 188, 206));
+  color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 15px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.child_div input{
+  background-color: whitesmoke;
+  margin-top: 20px;
+  padding: 5px 0px;
+  
+}
+
+.inputfield{
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+.data{
+  padding: 20px;
+}
+
+.data_search h1{
+  text-transform: capitalize;
+  font-size: 45px;
+  color: darkblue;
+  font-family: 'Merienda', cursive;
+}
+
+.data_temp h1{
+  font-size: 33px;
+  margin-bottom: 15px;
+  font-family: 'Courgette', cursive;
+}
+
+@media all and (max-width: 500px) {
+  body{
+    color: darkblue;
+  }
+}
+
