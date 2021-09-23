@@ -13,12 +13,9 @@
   height: 100vh;
   background-image: linear-gradient(145deg, rgb(72, 72, 211),rgb(175, 100, 175));
   position: relative;
- 
 }
 
 .child_div{ 
-  width: 40vw;
-  height: 60vh;
   background-image: linear-gradient(145deg, rgb(71, 128, 233),rgb(169, 188, 206));
   color: black;
   background-size: cover;
@@ -36,13 +33,9 @@
 .child_div input{
   background-color: whitesmoke;
   margin-top: 20px;
-  padding: 5px 0px;
-  
-}
-
-.inputfield{
+  margin-left: 15px;
+  margin-right: 15px;
   border-radius: 5px;
-  border-collapse: collapse;
 }
 
 .data{

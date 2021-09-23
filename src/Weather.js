@@ -33,12 +33,12 @@ const Weather = () => {
         <div className="parent_div">
             <div className="child_div">
                 <input
-                    type="search" className="inputfield" onChange={(event) => { setSearch(event.target.value) }} />
+                    type="search" placeholder="Search Location..." onChange={(event) => { setSearch(event.target.value) }} />
 
                 {!city ? (
                     <p> No Found</p>
                 ) : (
-                    <div className="data mt-3">
+                    <div className="data">
                         <div className="data_search">
                             <h1><LocationOnIcon/> {search}</h1>
                         </div>
